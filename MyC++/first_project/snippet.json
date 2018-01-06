@@ -8,7 +8,7 @@
 
     "std::cout <<": {
       "prefix": "cout",
-      "body": ["cout << \" $1 \"; ", "$0"],
+      "body": ["cout << \" $1 \"; $0"],
       "description": "console output stream object"
     },
     "using namespace std;": {
@@ -21,10 +21,10 @@
       "body": ["<< $0"],
       "description": "<<"
     },
-    "ss": {
-      "prefix": "ss",
-      "body": ["<< $0"],
-      "description": "<<"
+    "dd": {
+      "prefix": "dd",
+      "body": [">> $0"],
+      "description": ">>"
     }
   }
 ]
