@@ -13,7 +13,6 @@ int main(void)
   // Get the second number
   printf("Enter second number : ");
   scanf("%d", &second);
-
   // Calculate and display the product.
   result = product(first, second);
   printf("%d time %d = %d\n", first, second, result);
