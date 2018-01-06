@@ -6,10 +6,12 @@ using namespace std;
 int main() {
 
   int age;
+  char bloodtype;
   cout << " How old are you ? ";
   cin >> age;
-  cout << " you are "; 
-  
-
+  cout << " Your age is " << age << " years old" << endl;
+  cout << " Blood Type? "; 
+  cin >> bloodtype;
+  cout << " Your bloodtype is " << bloodtype;
   return 0;
 }
