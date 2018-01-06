@@ -1,10 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
+// cout = console output_stream object.
 int main() {
-  cout << " Chanon Panpila " << endl;
-  cout << " My age 20 \n";
-  cout << " Address Changarkatutid 6 \n";
+  cout << " Hello World " << endl;
 
   return 0;
 }
