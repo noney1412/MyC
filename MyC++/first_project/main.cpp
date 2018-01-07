@@ -5,7 +5,7 @@ using namespace std;
 int main() {
   // 1 bytes = 8 bits
   short a;
-  int b{20};
+  int b{4};
   cout << a << b <<endl;
   cout << "My Name is Chanon Panpila" ; 
   return 0; 
