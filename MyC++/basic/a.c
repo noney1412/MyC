@@ -1,13 +1,13 @@
+#include <limits.h>
 #include <stdio.h>
+#define PI 3.14
+#define CIRCLE_AREA(r) 2 * PI *r
 
 int main(void) {
 
-  printf("------Integer------ \n");
-  printf("%-18s%10d\n", "char", sizeof(char));
-  printf("%-18s%10d\n", "int", sizeof(int));
-  printf("%-18s%10d\n", "long", sizeof(long));
-  printf("%-18s%10d\n", "long long", sizeof(long long));
-  printf("%-18s%10d\n", "unsigned char", sizeof(unsigned char));
+  float area;
+  area = CIRCLE_AREA(320);
+  printf("%.2f", area);
 
   return 0;
 }
